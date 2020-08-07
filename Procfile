@@ -1,1 +1,1 @@
-web: gunicorn Toxic_NLP:app
+web: gunicorn app:toxic
