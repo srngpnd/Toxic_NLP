@@ -36,9 +36,14 @@ Due to aforementioned reason, tfidfVectorizer is the best vector generator in ou
 
 ### Exploratory Data Analysis
 
+We have an imbalanced class problem. The dataset contains only 9.5% Toxic comments while there are only ~1% Severe Toxic comments.
+
 <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_1.png?raw=true" width="500" height = "300">
 
 <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_2.png?raw=true" width="500" height = "200">
 
+Apart from all this lets visualize how correlated our classes are. Clearly there is correlation between Toxic and Insult Comments as well as Insult and Obscene Comments and Toxic and Obscene Comments.
+
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Correlation.png?raw=true" width="500" height = "200">
 ### Model Fitting
 
