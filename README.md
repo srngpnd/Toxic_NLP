@@ -61,7 +61,7 @@ So after fitting a TFIDF vector on our training comment. We began the work of se
 
 We started with splitting our dataset into train and test in the ratio of 2:1. So since we have an imbalanced class problem, we will be using SMOTE technique to balance our classes before making predictions to have a better fit on our training dataset.
 
-We used namely three classifiers Linear Regression, Multi-nomial Naives Bayes and Random Forest. The accuracy results are as follows:
+We used namely three classifiers Linear Regression, Multi-nomial Naives Bayes and Random Forest with cross validation with 3 folds. The accuracy results are as follows:
 
 Logistic: 90%
 <br />
