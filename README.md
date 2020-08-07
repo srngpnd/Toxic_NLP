@@ -36,9 +36,9 @@ Due to aforementioned reason, tfidfVectorizer is the best vector generator in ou
 
 ### Exploratory Data Analysis
 
-<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_1.png?raw=true" width="200" height = "200">
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_1.png?raw=true" width="500" height = "300">
 
-<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_2.png?raw=true" width="200" height = "200">
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_2.png?raw=true" width="500" height = "200">
 
 ### Model Fitting
 
