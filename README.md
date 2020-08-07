@@ -1,4 +1,5 @@
-# Toxic_Comment_Classification_NLP
+# Toxic_Comment_Classification_NLP 
+## Sarang Pande 
 
 ### Project for ISMT S-117 Text Analytics and Natural Language Processing at Harvard University
 
