@@ -58,7 +58,8 @@ Insult: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Insult
 
 So after fitting a TFIDF vector on our training comment. We began the work of selecting the best model for our classification task. 
 
-We started with splitting our dataset into train and test in the ratio of 2:1. 
+We started with splitting our dataset into train and test in the ratio of 2:1. So since we have an imbalanced class problem, we will be using SMOTE technique to balance our classes before making predictions to have a better fit on our training dataset.
+
 We used namely three classifiers Linear Regression, Multi-nomial Naives Bayes and Random Forest. The accuracy results are as follows:
 
 Logistic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Logistic.png?raw=true" width="400" height = "300">
@@ -66,3 +67,22 @@ Logistic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Logi
 MultinomialNB: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/MultinomialNB.png?raw=true" width="400" height = "300">
 <br />
 RandomForest: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/RandomForest.png?raw=true" width="400" height = "300">
+
+### Deployment
+
+So we moved on with Random Forest Classifier with an accuracy of 93% on our balanced dataset. For deployment we created a Flask Application and deployed the app on the Heroku Server. Once deployed, various organizations can integrate and use the web service to control hatred over their respective platforms thus resulting in a much safer environment for a healthy conversation. 
+
+A sample request and response on my local machine would look like:
+
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Request.png?raw=true" width="500" height = "600">
+
+### Future Work
+
+* Try more ways of vectorizing text data.
+* Go deeper on feature engineering : Spelling corrector, Sentiment scores, n-grams, etc.
+* Advanced models (e.g., lightgbm).
+* Deep learning model (e.g., LSTM, Bi-LSTM).
+* Embedding Techniques
+
+
+
