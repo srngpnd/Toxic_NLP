@@ -49,9 +49,20 @@ Apart from all this lets visualize how correlated our classes are. Clearly there
 Lets visualize few words from Toxic, Insult and Obscene comments. The images below gives us evidence that toxic, Insult and Obscene comments have similar words in them namely "FUCK FUCK", "NIGGER NIGGER", "HATE HATE" Etc..
 
 Toxic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Toxic_WC.png?raw=true" width="300" height = "200">
+<br />
 Obscene: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Obscene_WC.png?raw=true" width="300" height = "200">
+<br />
 Insult: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Insult_WC.png?raw=true" width="300" height = "200">
-
 
 ### Model Fitting
 
+So after fitting a TFIDF vector on our training comment. We began the work of selecting the best model for our classification task. 
+
+We started with splitting our dataset into train and test in the ratio of 2:1. 
+We used namely three classifiers Linear Regression, Multi-nomial Naives Bayes and Random Forest. The accuracy results are as follows:
+
+Logistic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Logistic.png?raw=true" width="500" height = "400">
+<br />
+MultinomialNB: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/MultinomialNB.png?raw=true" width="500" height = "400">
+<br />
+RandomForest: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/RandomForest.png?raw=true" width="500" height = "400">
