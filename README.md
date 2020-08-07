@@ -61,8 +61,8 @@ So after fitting a TFIDF vector on our training comment. We began the work of se
 We started with splitting our dataset into train and test in the ratio of 2:1. 
 We used namely three classifiers Linear Regression, Multi-nomial Naives Bayes and Random Forest. The accuracy results are as follows:
 
-Logistic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Logistic.png?raw=true" width="500" height = "400">
+Logistic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Logistic.png?raw=true" width="400" height = "300">
 <br />
-MultinomialNB: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/MultinomialNB.png?raw=true" width="500" height = "400">
+MultinomialNB: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/MultinomialNB.png?raw=true" width="400" height = "300">
 <br />
-RandomForest: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/RandomForest.png?raw=true" width="500" height = "400">
+RandomForest: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/RandomForest.png?raw=true" width="400" height = "300">
