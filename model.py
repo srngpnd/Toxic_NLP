@@ -17,7 +17,6 @@ data['comment_text'] = data['comment_text'].str.replace('.', ' ') #remove period
 data['comment_text'] = data['comment_text'].str.replace('\n', ' ') #remove new line characters
 
 en = English()
-#nlp = spacy.load('en')
 
 def simple_tokenizer(doc, model=en):
     parsed = model(doc)
