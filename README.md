@@ -75,11 +75,11 @@ Since MultinomialNB assumes independent factors, we moved on with Logistic Regre
 
 A Sample response for a toxic comment would be:
 
-<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Toxic_Comment.png?raw=true" width="500" height = "600">
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Toxic_Comment.png?raw=true" width="800" height = "600">
 
 A Sample response for a non toxic comment would be:
 
-<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Clean_Comment.png?raw=true" width="500" height = "600">
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Clean_Comment.png?raw=true" width="800" height = "600">
 
 We will be keeping the option open for various platforms to determine till what extent the probabilities of each type can be tolerated. And Thus, decided to send probabilities of all type instead of sending labels as Toxic or Non-Toxic.
 
