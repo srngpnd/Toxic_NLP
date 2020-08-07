@@ -46,7 +46,7 @@ Apart from all this lets visualize how correlated our classes are. Clearly there
 
 <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Correlation.png?raw=true" width="500" height = "400">
 
-Lets visualize few words from Toxic, Insult and Obscene comments. The images below gives us evidence that toxic, Insult and Obscene comments have similar words in them.
+Lets visualize few words from Toxic, Insult and Obscene comments. The images below gives us evidence that toxic, Insult and Obscene comments have similar words in them namely "FUCK FUCK", "NIGGER NIGGER", "HATE HATE" Etc..
 
 Toxic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Toxic_WC.png?raw=true" width="300" height = "200">
 Obscene: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Obscene_WC.png?raw=true" width="300" height = "200">
