@@ -1,6 +1,6 @@
 # Toxic_Comment_Classification_NLP
 
-### Project for ISMT S-117 Text Analytics and Natural Language Processing at Northeastern University
+### Project for ISMT S-117 Text Analytics and Natural Language Processing at Harvard University
 
 ### Table of Content
 - Overview
@@ -33,6 +33,10 @@ Since all of our data are text comments, we wrote our own `simple_tokenizer()` f
 So Tf-idf stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in information retrieval and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. 
 
 Due to aforementioned reason, tfidfVectorizer is the best vector generator in our scenario.
+
+![alt text](https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_1.png?raw=true) 
+
+![alt text](https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_2.png?raw=true) 
 
 ### Model Fitting
 
