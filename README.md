@@ -44,6 +44,6 @@ We have an imbalanced class problem. The dataset contains only 9.5% Toxic commen
 
 Apart from all this lets visualize how correlated our classes are. Clearly there is correlation between Toxic and Insult Comments as well as Insult and Obscene Comments and Toxic and Obscene Comments.
 
-<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Correlation.png?raw=true" width="500" height = "200">
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Correlation.png?raw=true" width="500" height = "400">
 ### Model Fitting
 
