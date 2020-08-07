@@ -63,19 +63,27 @@ We started with splitting our dataset into train and test in the ratio of 2:1. S
 
 We used namely three classifiers Linear Regression, Multi-nomial Naives Bayes and Random Forest. The accuracy results are as follows:
 
-Logistic: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Logistic.png?raw=true" width="400" height = "300">
+Logistic: 90%
 <br />
-MultinomialNB: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/MultinomialNB.png?raw=true" width="400" height = "300">
+MultinomialNB: 91%
 <br />
-RandomForest: <img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/RandomForest.png?raw=true" width="400" height = "300">
+RandomForest: 88%
 
 ### Deployment
 
-So we moved on with Random Forest Classifier with an accuracy of 93% on our balanced dataset. For deployment we created a Flask Application and deployed the app on the Heroku Server. Once deployed, various organizations can integrate and use the web service to control hatred over their respective platforms thus resulting in a much safer environment for a healthy conversation. 
+Since MultinomialNB assumes independent factors, we moved on with Logistic Regression Classifier with an accuracy of 90% on our balanced dataset. For deployment we created a Flask Application and generated pickle files for our classifier models for each type. 
 
-A sample request and response on my local machine would look like:
+A Sample response for a toxic comment would be:
 
-<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Request.png?raw=true" width="500" height = "600">
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Toxic_Comment.png?raw=true" width="500" height = "600">
+
+A Sample response for a non toxic comment would be:
+
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Clean_Comment.png?raw=true" width="500" height = "600">
+
+We will be keeping the option open for various platforms to determine till what extent the probabilities of each type can be tolerated. And Thus, decided to send probabilities of all type instead of sending labels as Toxic or Non-Toxic.
+
+Later we deployed the app on the Heroku Server. Once deployed, various organizations can integrate and use the web service to control hatred over their respective platforms thus resulting in a much safer environment for a healthy conversation. 
 
 ### Future Work
 
