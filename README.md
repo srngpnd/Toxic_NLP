@@ -26,7 +26,7 @@ The dataset we are using consists of comments from Wikipedia’s talk page edits
 
 There are 159,571 observations in the training dataset and 153,164 observations in the testing dataset. 
 
-### Data Preprocessing and EDA
+### Data Preprocessing
 
 Since all of our data are text comments, we wrote our own `simple_tokenizer()` function, removing punctuations and special characters and lemmatizing the comments. After benchmarking between different vectorizers (TFIDFVectorizer and CountVectorizer), we chose TFIDFVectorizer, which provides us with better performance.
 
@@ -34,9 +34,11 @@ So Tf-idf stands for term frequency-inverse document frequency, and the tf-idf w
 
 Due to aforementioned reason, tfidfVectorizer is the best vector generator in our scenario.
 
-![alt text](https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_1.png?raw=true) 
+### Exploratory Data Analysis
 
-![alt text](https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_2.png?raw=true) 
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_1.png?raw=true" width="200" height = "200">
+
+<img src="https://github.com/srngpnd/Toxic_NLP/blob/master/Images/Distribution_2.png?raw=true" width="200" height = "200">
 
 ### Model Fitting
 
