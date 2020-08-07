@@ -83,7 +83,7 @@ A Sample response for a non toxic comment would be:
 
 We will be keeping the option open for various platforms to determine till what extent the probabilities of each type can be tolerated. And Thus, decided to send probabilities of all type instead of sending labels as Toxic or Non-Toxic.
 
-Later we deployed the app on the Heroku Server. Once deployed, various organizations can integrate and use the web service to control hatred over their respective platforms thus resulting in a much safer environment for a healthy conversation. 
+Later we deployed the app on the Heroku Server on toxic-nlp.herokuapp.com. Once deployed, various organizations can integrate and use the web service to control hatred over their respective platforms thus resulting in a much safer environment for a healthy conversation. 
 
 ### Future Work
 
