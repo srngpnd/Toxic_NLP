@@ -28,9 +28,11 @@ There are 159,571 observations in the training dataset and 153,164 observations 
 
 ### Data Preprocessing and EDA
 
-Since all of our data are text comments, we wrote our own `tokenize()` function, removing punctuations and special characters, stemming and/or lemmatizing the comments, and filtering out comments with length below 3. After benchmarking between different vectorizers (TFIDFVectorizer and CountVectorizer), we chose TFIDFVectorizer, which provides us with better performance.
+Since all of our data are text comments, we wrote our own `simple_tokenizer()` function, removing punctuations and special characters and lemmatizing the comments. After benchmarking between different vectorizers (TFIDFVectorizer and CountVectorizer), we chose TFIDFVectorizer, which provides us with better performance.
 
-The major concern of the data is that most of the comments are clean (i.e., non-toxic). There are only a few observations in the training data for Labels like `threat`. This indicates that we need to deal with imbalanced classes later on and indeed, we use different methods, such as resampling, choosing appropriate evaluation metrics, and choosing robust models to address this problem.
+So Tf-idf stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in information retrieval and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. 
+
+Due to aforementioned reason, tfidfVectorizer is the best vector generator in our scenario.
 
 ### Model Fitting
 
