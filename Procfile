@@ -1,1 +1,1 @@
-web: gunicorn app:toxic
+web: gunicorn app:app

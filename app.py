@@ -13,6 +13,9 @@ insult_model = pickle.load(open('insult_model.pkl', 'rb'))
 identity_hate_model = pickle.load(open('identity_hate_model.pkl', 'rb'))
 tfidf_vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
 
 @app.route('/predict',methods=['POST'])
 def predict():
